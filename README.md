@@ -1,7 +1,11 @@
+[![Build Status](https://github.com/OpenIDC/ngx_oauth2_module/actions/workflows/build.yml/badge.svg)](https://github.com/OpenIDC/ngx_oauth2_module/actions/workflows/build.yml)
+
 # ngx_oauth2_module
-An module for the NGINX web server which makes NGINX operate as an
-OAuth 2.0 Resource Server, validating OAuth 2.0 bearer access tokens and setting headers/environment
-variables based on the validation results.
+
+A module for the NGINX web server that makes NGINX operate as an OAuth 2.0 Resource Server,
+validating OAuth 2.0 bearer access tokens and setting headers/environment variables based
+on the validation results.
+
 
 ## Configuration 
 
@@ -91,15 +95,15 @@ OAuth2TokenVerify [ introspect | jwk_uri | metadata | jwk | plain | base64 | bas
 
 #### Community Support
 For generic questions, see the Wiki pages with Frequently Asked Questions at:  
-  [https://github.com/zmartzone/ngx_oauth2_module/wiki](https://github.com/zmartzone/ngx_oauth2_module/wiki)  
+  [https://github.com/OpenIDC/ngx_oauth2_module/wiki](https://github.com/OpenIDC/ngx_oauth2_module/wiki)  
 Any questions/issues should go to issues tracker.
 
 #### Commercial Services
 For commercial Support contracts, Professional Services, Training and use-case specific support you can contact:  
-  [sales@zmartzone.eu](mailto:sales@zmartzone.eu)  
+  [sales@openidc.com](mailto:sales@openidc.com)  
 
 
 Disclaimer
 ----------
-*This software is open sourced by ZmartZone IAM. For commercial support
-you can contact [ZmartZone IAM](https://www.zmartzone.eu) as described above in the [Support](#support) section.*
+*This software is open sourced by OpenIDC. For commercial support
+you can contact [OpenIDC](https://www.openidc.com) as described above in the [Support](#support) section.*
